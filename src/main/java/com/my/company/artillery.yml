@@ -1,0 +1,9 @@
+config:
+  target: "https://YOUR_ACTIVE_DEPLOYMENT_URI"
+  phases:
+    - duration: 480
+    - arrivalRate: 100
+scenarios:
+  - flow:
+      - get:
+          url: "/hello"
