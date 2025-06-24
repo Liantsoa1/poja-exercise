@@ -31,4 +31,3 @@ public class EmailUpdateTriggeredService implements Consumer<EmailUpdateTriggere
         );
     }
 }
-git
